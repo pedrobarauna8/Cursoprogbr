@@ -5,8 +5,7 @@ body{
     background-attachment: fixed;
 }
 #principal{
-    color: red;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 #titulo{
     color: #FFFF00;
@@ -74,5 +73,20 @@ body{
     background-color: #ddd;
     border: 5px solid green;
     padding: 5px
-    
+}
+p{
+    color: red;
+    text-align: justify;
+    /*text-transform: uppercase;*/
+    /*text-indent: 35px;*/
+    /*text-decoration: line-through underline overline;*/
+    /*letter-spacing: 1.2;*/
+    /*line-height: 1.2;*/
+    /*word-spacing: 2;*/
+    text-shadow: 2px 2px 5px black;
+    /*font-family: Arial, "Comic Sans MS", sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    /*font-style: italic;*/
+    font-size: 22px;
+    /*font-weight: bold;*/
 }
