@@ -35,10 +35,29 @@ img{
 }
 ul{
     list-style: none; 
+    clear: left;
 }
 li{
     float: left;
     padding: 10px;
     background-color: #a3b5c7;
     margin: 5px;
+}
+.card{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+    text-align: center;
+}
+.c1{
+    line-height: 200px;
+}
+.c2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translate(-50%, -50%)
 }
