@@ -18,9 +18,33 @@
         </ul>
     </div>
     <br>
-    <form method="GET" action="https://www.youtube.com/watch">
-        <input type="text" name="v">
-        <input type="submit">
+    <form method="GET" action="">
+        <input type="text" name="v"><br>
+        <input type="password" name="senha"><br>
+        <input type="checkbox" name="curso" value="op1">React Native<br>
+        <input type="checkbox" name="curso" value="op2">React Js<br>
+        <input type="radio" name="gender" value="m" checked>Masc<br>
+        <input type="radio" name="gender" value="f">Fem<br>
+        <select name="estado">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP" selected>São Paulo</option>
+        </select><br>
+        <input type="text" name="assunto"><br>
+        <textarea name="mensagem"></textarea><br>
+        <input type="color" name="cor"><br>
+        <input type="date" name="data" max="2022-02-28"><br>
+        <!-- SÓ FUNCIONA COM O METODO PUSH -->
+        <input type="file" name="arquivo"><br>
+        <input type="number" name="númerico" min="5" max="10"><br>
+        <input type="range" min="5" max="10" name="intervalo" value="6"><br>
+        <!-- FAZ QUE SOMENTE O TECLADO NÚMERICO APAREÇA NOS DISPOSITIVOS MOBILE -->
+        <input type="tel" name="telefone"><br>
+        <input type="email" name="email"><br>
+
+
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+
     </form>
 
 </body>
