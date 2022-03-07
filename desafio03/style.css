@@ -5,16 +5,27 @@ body{
 .logo{
     color: #349400;
     float: left;
+    display: block;
 }
 header{
     margin: 50px;
-    background-color: #349400;
 }
 ul{
     list-style: none;
+    text-align: right;
+    display: block;
 }
 li{
     float: right;
-    padding: 10px;
+    margin-left: 50px;
+}
+section{
+    margin-top: 50px;
+    /* background-image: url(/assets/img1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat; */
+    text-align: center;
+}
+.image{
 
 }
