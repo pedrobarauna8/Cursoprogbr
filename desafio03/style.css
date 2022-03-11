@@ -9,23 +9,60 @@ body{
 }
 header{
     margin: 50px;
+    background-color: white;
 }
-ul{
+.menu{
     list-style: none;
     text-align: right;
     display: block;
 }
-li{
+.menuItems{
     float: right;
     margin-left: 50px;
 }
 section{
     margin-top: 50px;
-    /* background-image: url(/assets/img1.jpg);
+    background-image: url(/assets/img1.jpg);
     background-size:contain;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+}
+.text{
+    font-size: 50px;
+    color: white;
+    padding: 30px;
+}
+#services{
+    text-align: center;
+    font-size: 40px;
+}
+.lists{
+    padding: 20px;
+}
+.listServices{
+    display: inline-block;
+    margin-left: 200px;
+}
+.listServices2{
+    float: right;
+    margin-right: 200px;
+}
+li{
+    
+    
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
     text-align: center;
 }
-.image{
-
+#openingHours{
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;  
+}
+#contact{
+    text-align: center;
 }
